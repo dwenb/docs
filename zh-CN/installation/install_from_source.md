@@ -9,6 +9,11 @@ name: 源码安装
 ### 基本依赖
 
 - [Go 语言](http://golang.org)：版本 >= 1.6
+创建一个新用户，命名`git`，将安装的东西都放在这个用户下：
+```sh
+$ sudo adduser --disabled-login --gecos 'Gogs' git
+```
+
 
 ### 第三方包
 
